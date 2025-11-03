@@ -1,0 +1,21 @@
+{
+  "name": "nosql-mongo-ops",
+  "version": "1.0.0",
+  "description": "Minimal project demonstrating ~15 MongoDB operations for a NoSQL class",
+  "main": "scripts/run.js",
+  "scripts": {
+    "start": "node scripts/run.js all",
+    "run": "node scripts/run.js"
+  },
+  "keywords": [
+    "mongodb",
+    "nosql",
+    "examples"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongodb": "^5.9.2"
+  }
+}
