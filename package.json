@@ -5,7 +5,9 @@
   "main": "scripts/run.js",
   "scripts": {
     "start": "node scripts/run.js all",
-    "run": "node scripts/run.js"
+    "run": "node scripts/run.js",
+    "server": "node server/index.js",
+    "dev": "node server/index.js"
   },
   "keywords": [
     "mongodb",
@@ -15,7 +17,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
+    "express": "^4.21.2",
     "mongodb": "^5.9.2"
   }
 }
